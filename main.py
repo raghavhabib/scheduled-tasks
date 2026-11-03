@@ -4,8 +4,8 @@ import datetime as dt
 import pandas
 import os
 
-my_email = os.environ.get("my_email")
-password = os.environ.get("my_password")
+my_email = os.environ.get("MY_EMAIL")
+password = os.environ.get("MY_PASSWORD")
 
 # ---------------------------- FIND TODAY'S BIRTHDAYS ------------------------------- #
 birthdays = pandas.read_csv("birthdays.csv")
