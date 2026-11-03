@@ -1,4 +1,1 @@
 pandas
-smtplib
-random
-datetime
